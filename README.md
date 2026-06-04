@@ -1,38 +1,63 @@
-SUCCESS SECRETS WITH ALEX
+# Vortex AI | Agency Operating System
 
-MAKE MONEY WITH AI CHALLENGE | தமிழ்
+![Vortex AI Dashboard](screenshots/final_dashboard_home.png)
 
-DAY 3 MINI-PROJECT | Your First AI Operating System
+**Vortex AI** is an ultra-premium, full-stack Operating System built specifically for high-end AI Agencies. It serves as a centralized mission control center to manage autonomous agents, monitor real-time model latency, handle client CRM, and track cloud infrastructure costs—all from a single, unified interface.
 
-**[INSERT YOUR NAME HERE]**
+Built with a "Professional Precision" design philosophy, the dashboard abandons generic SaaS themes in favor of an elite, minimalist dark-mode aesthetic (inspired by platforms like Vercel and Linear).
 
+## 🚀 Core Features
 
-[STEP 1] YOUR PROMPT (From the Questionnaire):
-"I want to build a fully functional AI Agency Operating System dashboard using React and Tailwind CSS. The design must be an ultra-high-end, minimalist, premium dark mode aesthetic (inspired by Midday.ai). It should act as a mission control center with live AI metrics like Agent Operations, Model Latency, API Spend, and System Event Logs. It should also have globally unified pages for CRM, Kanban Tasks, Document Vault, Invoicing, and Time Tracking. Do not use generic SaaS themes; stick to a precise, elegant, monolithic aesthetic with smooth animations and fully interactive components."
+- **AI Command Center:** Live telemetry tracking Agent Operations (requests/errors), real-time Model Latency, and GPU Compute Costs.
+- **Client CRM:** Elegant data grid to manage agency clients, API usage tiers, and Monthly Recurring Revenue (MRR).
+- **System Event Logger:** Real-time logging of autonomous agent actions and cloud infrastructure states.
+- **Project Kanban:** Smooth, minimalist task board for tracking AI deployment pipelines.
+- **Document Vault:** Secure-feeling file manager for storing API keys, model weights, and system logs.
+- **Invoicing & Billing:** Ledger for managing outstanding and paid client invoices.
+- **Time Tracker:** Functional session timer for tracking billable engineering hours.
 
-[STEP 2] YOUR GEMINI.MD File:
-```markdown
-# Vortex OS Premium AI Dashboard Strategy
+## 💻 Tech Stack
 
-This UI mimics the ultra-high-end aesthetic of developers' favorite tools. We are abandoning the generic look and embracing **Professional Precision**.
+- **Frontend:** React, TypeScript, Next.js
+- **Styling:** Tailwind CSS (Utility-first, precise custom UI)
+- **Icons:** Lucide React
+- **State Management:** React Context API
 
-## 1. Color Architecture
-Strictly Black and White. The background is pure `#000000` or `#09090B`. Text is muted white/gray.
-Use varying shades of very dark zinc (e.g., `#18181B`, `#27272A`) to define hierarchy instead of harsh lines or drop shadows.
+## 📸 Screenshots
 
-## 2. Core Features Implemented
-- **AI Operations Command Center**: Live ticker showing AI Agent requests, success rates, model latency charts, GPU availability, and LLM token spend.
-- **Global Unification**: All pages (CRM, Vault, Kanban) adhere to the exact same soft dark-mode minimalist design system.
-- **System Event Logs**: Replaced static components with a real-time system event logger indicating agent statuses.
-```
+### System Event Logs & Telemetry
+![System Logs](screenshots/final_dashboard_logs.png)
 
-[STEP 3] YOUR AIOS SCREENSHOTS & DEMO VIDEO:
-![AIOS Command Center](screenshots/final_dashboard_home.png)
-![AIOS System Logs](screenshots/final_dashboard_logs.png)
-![AIOS Client CRM](screenshots/final_crm.png)
-![AIOS Project Board](screenshots/final_tasks.png)
-![AIOS Document Vault](screenshots/final_vault.png)
+### Client CRM
+![Client CRM](screenshots/final_crm.png)
 
-**Interactive Demo Recording (WebP Format)**:
-![AIOS Demo Video](screenshots/vortex_fast_demo.webp)
+### Project Tasks (Kanban)
+![Kanban Board](screenshots/final_tasks.png)
 
+### Secure Document Vault
+![Document Vault](screenshots/final_vault.png)
+
+## ⚙️ Running Locally
+
+To run the Vortex AI dashboard on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Raaja-Santhosh/vortex-ai.git
+   cd vortex-ai/frontend
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the dashboard:** Open `http://localhost:3000` in your browser.
+
+---
+*Designed and built by Raaja Santhosh.*
