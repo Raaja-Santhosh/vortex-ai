@@ -1,0 +1,16 @@
+# Node
+node_modules/
+.next/
+dist/
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+backend/database.db
+backend/uploads/
+
+# Unneeded files
+design.html
+design2.html
+design_b64.txt
