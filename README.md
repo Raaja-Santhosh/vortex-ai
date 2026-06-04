@@ -37,27 +37,5 @@ Built with a "Professional Precision" design philosophy, the dashboard abandons 
 ### Secure Document Vault
 ![Document Vault](screenshots/final_vault.png)
 
-## ⚙️ Running Locally
-
-To run the Vortex AI dashboard on your local machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Raaja-Santhosh/vortex-ai.git
-   cd vortex-ai/frontend
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **View the dashboard:** Open `http://localhost:3000` in your browser.
-
 ---
 *Designed and built by Raaja Santhosh.*
